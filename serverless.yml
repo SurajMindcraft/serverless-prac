@@ -9,3 +9,5 @@ provider:
 functions:
   hello:
     handler: src/handler.hello
+    timeout: 60
+    memorySize: 128
